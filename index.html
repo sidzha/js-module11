@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Модуль 11 | Translator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/index.js"></script>
+  </head>
+  <body>
+    <h1>Переводчик</h1>
+    <p>На основе API Яндекс.Переводчика</p>
+    <div class="container">
+      <form class="js-form">
+        <select class="source-lang js-source-lang"></select>
+        <select class="target-lang js-target-lang"></select
+        ><br />
+        <input
+          class="source-input js-source-input"
+          type="textarea"
+          placeholder="Введите текст"
+          required
+        />
+        <input
+          class="result-input js-result-input"
+          type="textarea"
+          placeholder="Перевод"
+          disabled
+        /><br /><br />
+        <input class="sbmt js-sbmt" type="submit" value="Перевести" />
+      </form>
+    </div>
+  </body>
+</html>
